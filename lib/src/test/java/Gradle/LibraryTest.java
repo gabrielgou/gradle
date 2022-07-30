@@ -11,4 +11,9 @@ class LibraryTest {
         Library classUnderTest = new Library();
         assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
     }
+    @Test void lessThanTester() {
+    	Library test = new Library();
+    	int a=2, b=3;
+    	assertTrue(test.lessThan(a, b), "Teste Quebrado, b>a");
+    }
 }
