@@ -13,7 +13,7 @@ class LibraryTest {
     }
     @Test void lessThanTester() {
     	Library test = new Library();
-    	int a=5, b=3;
+    	int a=2, b=3;
     	assertTrue(test.lessThan(a, b), "Teste Quebrado, b>a");
     }
 }
