@@ -11,4 +11,8 @@ public class Library {
     {
 	    return a<b;
     }
+    public boolean greaterThan(int a, int b)
+    {
+	    return a>b;
+    }
 }

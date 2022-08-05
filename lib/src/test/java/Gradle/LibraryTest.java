@@ -16,4 +16,9 @@ class LibraryTest {
     	int a=2, b=3;
     	assertTrue(test.lessThan(a, b), "Teste Quebrado, b>a");
     }
+    @Test void greaterThanTester() {
+    	Library test = new Library();
+    	int a=4, b=3;
+    	assertTrue(test.greaterThan(a, b), "Teste Quebrado, a<b");
+    }
 }
